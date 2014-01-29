@@ -1,0 +1,128 @@
+/*
+CONTENTS
+    1. Page-Wrap
+    2. Nav
+    3. Introduction
+    4. Renewable Energy
+    . Footer
+*/
+
+
+/* 1. Page-Wrap */
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+   /* .push must be the same height as footer */
+  height: 142px; 
+}
+
+/* 2. Nav */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  padding: 2em;
+}
+
+/* 3. Introduction */
+
+.introduction {
+  padding-top: 20em;
+  background-image: url("cabeceraalto.png");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 23em;
+}
+
+/* 4. Renewable Energy */
+
+.renewable-energy {
+  width: 100%;
+  background-color: rgba(215, 180, 25, 1.0000);
+  text-align: center;
+}
+
+/* 6. Footer */
+
+/* Sticky footer */
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+footer {
+  /* .push must be the same height as footer */
+  height: 142px; 
+}
+
+footer {
+  background: #EEEEEE;
+  margin-top: 2em;
+  display: table;
+  width: 100%;
+
+  article {
+    display: table-cell;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  span {
+    font-size: 17px;
+    color: #76b703;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+}
+
+/*
+__________________________
+MEDIA QUERIES
+__________________________*/
+
+@media (max-width: 1024px) {
+
+  .introduction {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+}
+
+
+@media (max-width: 765px) {
+
+  .nav-logo {
+    display: block !important;
+  }
+
+
+  .introduction header {
+    color: red;
+  }
+}

@@ -1,0 +1,128 @@
+/*
+CONTENTS
+    1. Page-Wrap
+    2. Nav
+    3. Introduction
+    4. Renewable Energy
+    . Footer
+*/
+/* 1. Page-Wrap */
+/* line 13, ../sass/main.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+
+/* line 18, ../sass/main.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+  /* .push must be the same height as footer */
+  height: 142px;
+}
+
+/* 2. Nav */
+/* line 27, ../sass/main.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+/* line 32, ../sass/main.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* line 36, ../sass/main.scss */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  padding: 2em;
+}
+
+/* 3. Introduction */
+/* line 43, ../sass/main.scss */
+.introduction {
+  padding-top: 20em;
+  background-image: url("cabeceraalto.png");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 23em;
+}
+
+/* 4. Renewable Energy */
+/* line 56, ../sass/main.scss */
+.renewable-energy {
+  width: 100%;
+  background-color: #d7b419;
+  text-align: center;
+}
+
+/* 6. Footer */
+/* Sticky footer */
+/* line 65, ../sass/main.scss */
+* {
+  margin: 0;
+}
+
+/* line 69, ../sass/main.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 73, ../sass/main.scss */
+footer {
+  /* .push must be the same height as footer */
+  height: 142px;
+}
+
+/* line 78, ../sass/main.scss */
+footer {
+  background: #EEEEEE;
+  margin-top: 2em;
+  display: table;
+  width: 100%;
+}
+/* line 84, ../sass/main.scss */
+footer article {
+  display: table-cell;
+  text-align: center;
+  padding-top: 2em;
+}
+/* line 90, ../sass/main.scss */
+footer span {
+  font-size: 17px;
+  color: #76b703;
+}
+/* line 95, ../sass/main.scss */
+footer ul li {
+  display: inline;
+}
+
+/*
+__________________________
+MEDIA QUERIES
+__________________________*/
+@media (max-width: 1024px) {
+  /* line 108, ../sass/main.scss */
+  .introduction {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (max-width: 765px) {
+  /* line 120, ../sass/main.scss */
+  .nav-logo {
+    display: block !important;
+  }
+
+  /* line 125, ../sass/main.scss */
+  .introduction header {
+    color: red;
+  }
+}
