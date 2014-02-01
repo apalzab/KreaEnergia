@@ -1,3 +1,14 @@
+/*
+ * KreaEnergia website
+ *
+ * Copyright 2014 Aitor Palacios
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Built by Aitor Palacios aitorpalacios.me
+ * Designed by Irati García iratigarcia.com
+*/
+
 function initialize() {
 
   var mapOptions = {
@@ -6,6 +17,7 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControl: true,
     scrollwheel: false,
+    draggable: false,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM
     }
