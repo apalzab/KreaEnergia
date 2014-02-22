@@ -1,0 +1,75 @@
+.navbar {
+    width: 100%;
+    background-color: #222222;
+    height: 4em;
+    img {
+        padding: .5em 0 .5em 1em;
+    }
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+
+  p {
+    margin: .7em 0 0 0;
+  }
+}
+
+article {
+  border-left: 2px solid #EEEEEE;
+  padding-left: 1.5em;
+}
+
+.implementation {
+  ul {
+    list-style: none;
+    border-left: 2px solid #EEEEEE;
+    padding-left: 1.5em;
+  }
+}
+
+.projects {
+  margin-top: 5em;
+}
+
+.container.carousel {
+  padding-bottom: 0;
+}
+
+.right.carousel-control, .left.carousel-control {
+  background-image: none;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 142px; 
+}
+footer {
+  background: #222222;
+  text-align: center;
+  color: #ffffff;
+  article {
+    padding-top: 1em;
+  }
+  span {
+    font-size: 17px;
+    color: #76b703;
+  }
+}

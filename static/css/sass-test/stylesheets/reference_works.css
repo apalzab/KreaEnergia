@@ -1,0 +1,94 @@
+/* line 1, ../sass/reference_works.scss */
+.navbar {
+  width: 100%;
+  background-color: #222222;
+  height: 4em;
+}
+/* line 5, ../sass/reference_works.scss */
+.navbar img {
+  padding: .5em 0 .5em 1em;
+}
+
+/* line 10, ../sass/reference_works.scss */
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+/* line 15, ../sass/reference_works.scss */
+.container p {
+  margin: .7em 0 0 0;
+}
+
+/* line 20, ../sass/reference_works.scss */
+article {
+  border-left: 2px solid #EEEEEE;
+  padding-left: 1.5em;
+}
+
+/* line 26, ../sass/reference_works.scss */
+.implementation ul {
+  list-style: none;
+  border-left: 2px solid #EEEEEE;
+  padding-left: 1.5em;
+}
+
+/* line 33, ../sass/reference_works.scss */
+.projects {
+  margin-top: 5em;
+}
+
+/* line 37, ../sass/reference_works.scss */
+.container.carousel {
+  padding-bottom: 0;
+}
+
+/* line 41, ../sass/reference_works.scss */
+.right.carousel-control, .left.carousel-control {
+  background-image: none;
+}
+
+/* line 45, ../sass/reference_works.scss */
+* {
+  margin: 0;
+}
+
+/* line 48, ../sass/reference_works.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 51, ../sass/reference_works.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+
+/* line 56, ../sass/reference_works.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 60, ../sass/reference_works.scss */
+footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 142px;
+}
+
+/* line 64, ../sass/reference_works.scss */
+footer {
+  background: #222222;
+  text-align: center;
+  color: #ffffff;
+}
+/* line 68, ../sass/reference_works.scss */
+footer article {
+  padding-top: 1em;
+}
+/* line 71, ../sass/reference_works.scss */
+footer span {
+  font-size: 17px;
+  color: #76b703;
+}
